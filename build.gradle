@@ -1,0 +1,75 @@
+buildscript {
+
+    repositories {
+	
+        jcenter()
+        maven { url = "http://files.minecraftforge.net/maven" }
+		
+    }
+	
+    dependencies {
+	
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+		
+    }
+	
+}
+
+apply plugin: 'net.minecraftforge.gradle.forge'
+
+version = "0.0.0"
+group = "com.leyxorcheysen.totalrescurrection"
+archivesBaseName = "totalrescurrection"
+
+sourceCompatibility = targetCompatibility = '1.8'
+
+compileJava {
+
+    sourceCompatibility = targetCompatibility = '1.8'
+	
+}
+
+minecraft {
+
+    version = "1.12.2-14.23.5.2768"
+    runDir = "run"
+    mappings = "snapshot_20171003"
+	
+}
+
+dependencies {
+
+}
+
+processResources {
+
+    inputs.property "0.0.0", project.version
+    inputs.property "1.12.2", project.minecraft.version
+	
+    from(sourceSets.main.resources.srcDirs) {
+	
+        include 'mcmod.info'
+        expand 'version':project.version, 'mcversion':project.minecraft.version
+		
+    }
+        
+    from(sourceSets.main.resources.srcDirs) {
+	
+        exclude 'mcmod.info'
+		
+    }
+	
+}
+
+runClient {
+
+    args = ["--username=LeyxorCheysen"]
+	jvmArgs "-Xmx1G", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseG1GC", "-XX:G1NewSizePercent=20", "-XX:G1ReservePercent=20", "-XX:MaxGCPauseMillis=50", "-XX:G1HeapRegionSize=32M"
+	
+}
+
+runServer {
+
+	jvmArgs "-Xmx1G", "-XX:+UnlockExperimentalVMOptions", "-XX:+UseG1GC", "-XX:G1NewSizePercent=20", "-XX:G1ReservePercent=20", "-XX:MaxGCPauseMillis=50", "-XX:G1HeapRegionSize=32M"
+
+}
