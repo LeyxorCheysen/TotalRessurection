@@ -1,0 +1,10 @@
+{
+  "homepage": "https://minecraft.curseforge.com/projects/totalresurrection",
+  "1.12.2": {
+    "0.0.0": "Created full mod core."
+  },
+  "promos": {
+    "1.12.2-latest": "0.0.0",
+    "1.12.2-recommended": "0.0.0"
+  }
+}
