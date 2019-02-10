@@ -1,18 +1,109 @@
 Symbol range map extraction starting
-Processing 1 files
-startProcessing "com\leyxorcheysen\totalresurrection\TotalResurrection.java" md5: d4cad6d4ff84e61ee5e562e7d0a4bd57
+Processing 3 files
+startProcessing "com\leyxorcheysen\totalresurrection\TotalResurrection.java" md5: 9617e1bdcab7e59c7baf37f4134e2a40
 @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|8|43|com.leyxorcheysen.totalresurrection|package|com.leyxorcheysen.totalresurrection|(file)
 Class Start: com.leyxorcheysen.totalresurrection.TotalResurrection
-   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|90|93|Mod|class|net.minecraftforge.fml.common.Mod
-   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|94|99|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
-   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|123|127|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
-   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|152|159|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
-   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|171|183|dependencies|method|net.minecraftforge.fml.common.Mod|dependencies|()Ljava/lang/String;
-   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|226|237|useMetadata|method|net.minecraftforge.fml.common.Mod|useMetadata|()Z
-   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|246|271|acceptedMinecraftVersions|method|net.minecraftforge.fml.common.Mod|acceptedMinecraftVersions|()Ljava/lang/String;
-   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|286|297|modLanguage|method|net.minecraftforge.fml.common.Mod|modLanguage|()Ljava/lang/String;
-   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|308|318|updateJSON|method|net.minecraftforge.fml.common.Mod|updateJSON|()Ljava/lang/String;
-   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|424|441|TotalResurrection|class|com.leyxorcheysen.totalresurrection.TotalResurrection
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|517|520|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|521|526|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|550|554|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|579|586|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|598|610|dependencies|method|net.minecraftforge.fml.common.Mod|dependencies|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|653|664|useMetadata|method|net.minecraftforge.fml.common.Mod|useMetadata|()Z
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|673|698|acceptedMinecraftVersions|method|net.minecraftforge.fml.common.Mod|acceptedMinecraftVersions|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|713|724|modLanguage|method|net.minecraftforge.fml.common.Mod|modLanguage|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|735|745|updateJSON|method|net.minecraftforge.fml.common.Mod|updateJSON|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|851|868|TotalResurrection|class|com.leyxorcheysen.totalresurrection.TotalResurrection
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|899|916|TotalResurrection|class|com.leyxorcheysen.totalresurrection.TotalResurrection
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|875|883|Instance|class|net.minecraftforge.fml.common.Mod.Instance
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|899|916|TotalResurrection|class|com.leyxorcheysen.totalresurrection.TotalResurrection
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|917|925|instance|field|com.leyxorcheysen.totalresurrection.TotalResurrection|instance|
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1099|1110|CommonProxy|class|com.leyxorcheysen.totalresurrection.common.CommonProxy
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|931|941|SidedProxy|class|net.minecraftforge.fml.common.SidedProxy
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|942|952|clientSide|method|net.minecraftforge.fml.common.SidedProxy|clientSide|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1013|1023|serverSide|method|net.minecraftforge.fml.common.SidedProxy|serverSide|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1099|1110|CommonProxy|class|com.leyxorcheysen.totalresurrection.common.CommonProxy
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1111|1116|proxy|field|com.leyxorcheysen.totalresurrection.TotalResurrection|proxy|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1182|1187|event|param|com.leyxorcheysen.totalresurrection.TotalResurrection|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1122|1134|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1148|1155|preInit|method|com.leyxorcheysen.totalresurrection.TotalResurrection|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1156|1181|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1199|1204|proxy|field|com.leyxorcheysen.totalresurrection.TotalResurrection|proxy
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1205|1212|preInit|method|com.leyxorcheysen.totalresurrection.common.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1213|1218|event|param|com.leyxorcheysen.totalresurrection.TotalResurrection|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1287|1292|event|param|com.leyxorcheysen.totalresurrection.TotalResurrection|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1233|1245|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1259|1263|init|method|com.leyxorcheysen.totalresurrection.TotalResurrection|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1264|1286|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1304|1309|proxy|field|com.leyxorcheysen.totalresurrection.TotalResurrection|proxy
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1310|1314|init|method|com.leyxorcheysen.totalresurrection.common.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1315|1320|event|param|com.leyxorcheysen.totalresurrection.TotalResurrection|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1397|1402|event|param|com.leyxorcheysen.totalresurrection.TotalResurrection|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1335|1347|EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1361|1369|postInit|method|com.leyxorcheysen.totalresurrection.TotalResurrection|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1370|1396|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1414|1419|proxy|field|com.leyxorcheysen.totalresurrection.TotalResurrection|proxy
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1420|1428|postInit|method|com.leyxorcheysen.totalresurrection.common.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|1429|1434|event|param|com.leyxorcheysen.totalresurrection.TotalResurrection|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
 Class End  : com.leyxorcheysen.totalresurrection.TotalResurrection
 endProcessing "com\leyxorcheysen\totalresurrection\TotalResurrection.java"
+
+startProcessing "com\leyxorcheysen\totalresurrection\client\ClientProxy.java" md5: 511b4869b9c559b261af5ad9729c804d
+@|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|8|50|com.leyxorcheysen.totalresurrection.client|package|com.leyxorcheysen.totalresurrection.client|(file)
+Class Start: com.leyxorcheysen.totalresurrection.client.ClientProxy
+   @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|338|349|ClientProxy|class|com.leyxorcheysen.totalresurrection.client.ClientProxy
+   @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|358|369|CommonProxy|class|com.leyxorcheysen.totalresurrection.common.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|435|440|event|param|com.leyxorcheysen.totalresurrection.client.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|376|384|Override|class|java.lang.Override
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|401|408|preInit|method|com.leyxorcheysen.totalresurrection.common.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|409|434|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|461|468|preInit|method|com.leyxorcheysen.totalresurrection.common.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|469|474|event|param|com.leyxorcheysen.totalresurrection.client.ClientProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|551|556|event|param|com.leyxorcheysen.totalresurrection.client.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|498|506|Override|class|java.lang.Override
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|523|527|init|method|com.leyxorcheysen.totalresurrection.common.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|528|550|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|580|584|init|method|com.leyxorcheysen.totalresurrection.common.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|585|590|event|param|com.leyxorcheysen.totalresurrection.client.ClientProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|675|680|event|param|com.leyxorcheysen.totalresurrection.client.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|614|622|Override|class|java.lang.Override
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|639|647|postInit|method|com.leyxorcheysen.totalresurrection.common.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|648|674|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|704|712|postInit|method|com.leyxorcheysen.totalresurrection.common.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|713|718|event|param|com.leyxorcheysen.totalresurrection.client.ClientProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.leyxorcheysen.totalresurrection.client.ClientProxy
+endProcessing "com\leyxorcheysen\totalresurrection\client\ClientProxy.java"
+
+startProcessing "com\leyxorcheysen\totalresurrection\common\CommonProxy.java" md5: ad13f5c8292863e77d6122d7b08a5db9
+@|com\leyxorcheysen\totalresurrection\common\CommonProxy.java|8|50|com.leyxorcheysen.totalresurrection.common|package|com.leyxorcheysen.totalresurrection.common|(file)
+Class Start: com.leyxorcheysen.totalresurrection.common.CommonProxy
+   @|com\leyxorcheysen\totalresurrection\common\CommonProxy.java|275|286|CommonProxy|class|com.leyxorcheysen.totalresurrection.common.CommonProxy
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\common\CommonProxy.java|338|343|event|param|com.leyxorcheysen.totalresurrection.common.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|com\leyxorcheysen\totalresurrection\common\CommonProxy.java|304|311|preInit|method|com.leyxorcheysen.totalresurrection.common.CommonProxy|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\common\CommonProxy.java|312|337|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\common\CommonProxy.java|399|404|event|param|com.leyxorcheysen.totalresurrection.common.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\leyxorcheysen\totalresurrection\common\CommonProxy.java|371|375|init|method|com.leyxorcheysen.totalresurrection.common.CommonProxy|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\common\CommonProxy.java|376|398|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\common\CommonProxy.java|468|473|event|param|com.leyxorcheysen.totalresurrection.common.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|com\leyxorcheysen\totalresurrection\common\CommonProxy.java|432|440|postInit|method|com.leyxorcheysen.totalresurrection.common.CommonProxy|postInit|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|com\leyxorcheysen\totalresurrection\common\CommonProxy.java|441|467|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+   Method End: postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+Class End  : com.leyxorcheysen.totalresurrection.common.CommonProxy
+endProcessing "com\leyxorcheysen\totalresurrection\common\CommonProxy.java"
 
