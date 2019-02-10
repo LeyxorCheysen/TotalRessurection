@@ -1,0 +1,18 @@
+Symbol range map extraction starting
+Processing 1 files
+startProcessing "com\leyxorcheysen\totalresurrection\TotalResurrection.java" md5: d4cad6d4ff84e61ee5e562e7d0a4bd57
+@|com\leyxorcheysen\totalresurrection\TotalResurrection.java|8|43|com.leyxorcheysen.totalresurrection|package|com.leyxorcheysen.totalresurrection|(file)
+Class Start: com.leyxorcheysen.totalresurrection.TotalResurrection
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|90|93|Mod|class|net.minecraftforge.fml.common.Mod
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|94|99|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|123|127|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|152|159|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|171|183|dependencies|method|net.minecraftforge.fml.common.Mod|dependencies|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|226|237|useMetadata|method|net.minecraftforge.fml.common.Mod|useMetadata|()Z
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|246|271|acceptedMinecraftVersions|method|net.minecraftforge.fml.common.Mod|acceptedMinecraftVersions|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|286|297|modLanguage|method|net.minecraftforge.fml.common.Mod|modLanguage|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|308|318|updateJSON|method|net.minecraftforge.fml.common.Mod|updateJSON|()Ljava/lang/String;
+   @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|424|441|TotalResurrection|class|com.leyxorcheysen.totalresurrection.TotalResurrection
+Class End  : com.leyxorcheysen.totalresurrection.TotalResurrection
+endProcessing "com\leyxorcheysen\totalresurrection\TotalResurrection.java"
+
