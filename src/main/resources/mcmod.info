@@ -1,5 +1,5 @@
 [{
-  "modid": "totalrecurrection",
+  "modid": "totalresurrection",
   "name": "Total Resurrection",
   "description": "Learn to control life better than god.",
   "version": "${version}",
@@ -8,5 +8,5 @@
   "url": "https://minecraft.curseforge.com/projects/totalresurrection",
   "updateJSON": "https://raw.githubusercontent.com/LeyxorCheysen/TotalRessurection/master/versions.json",
   "authorList": ["LeyxorCheysen"],
-  "credits": "Thanks to the sites mcforge.readthedocs, mcmodding.ru and shadowfacts.net"
+  "credits": "Thanks to the forge docs, mcmodiing forum and shadowfacts tutorials."
 }]
