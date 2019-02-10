@@ -1,0 +1,12 @@
+[{
+  "modid": "totalrecurrection",
+  "name": "Total Resurrection",
+  "description": "Learn to control life better than god.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "logoFile": "assets/totalresurrection/textures/logo.png",
+  "url": "https://minecraft.curseforge.com/projects/totalresurrection",
+  "updateJSON": "https://raw.githubusercontent.com/LeyxorCheysen/TotalRessurection/master/versions.json",
+  "authorList": ["LeyxorCheysen"],
+  "credits": "Thanks to the sites mcforge.readthedocs, mcmodding.ru and shadowfacts.net"
+}]
