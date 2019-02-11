@@ -13,7 +13,7 @@ public class EventsHandler {
 		
 	    if (LootTableList.CHESTS_DESERT_PYRAMID.equals(event.getName())) {
 	    	
-	        ResourceLocation loc = new ResourceLocation("total_resurrection", "chests/total_resurrection_desert_pyramid_chest");
+	        ResourceLocation loc = new ResourceLocation("totalresurrection", "chests/total_resurrection_desert_pyramid_chest");
 	        LootTable customLootTable = event.getLootTableManager().getLootTableFromLocation(loc);
 	        event.setTable(customLootTable);
 	        
