@@ -1,0 +1,17 @@
+{
+  "pools": [{
+    "name": "default",
+    "rolls": 1,
+    "entries": [
+      {
+        "type": "item",
+        "name": "totalresurrection:life_crystal",
+        "weight": 90
+      },
+      {
+        "type": "empty",
+        "weight": 10
+      }
+    ]
+  }]
+}
