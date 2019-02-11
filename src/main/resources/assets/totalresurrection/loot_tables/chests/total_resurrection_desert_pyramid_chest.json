@@ -1,6 +1,7 @@
 {
     "pools": [
         {
+        	"name": "default",
             "rolls": {
                 "min": 2,
                 "max": 4
