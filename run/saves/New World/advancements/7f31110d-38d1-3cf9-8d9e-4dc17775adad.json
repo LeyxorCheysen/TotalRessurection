@@ -1,15 +1,13 @@
 {
   "totalresurrection:totalresurrection/root": {
     "criteria": {
-      "has_life_crystal": "2019-02-11 12:27:34 +0200"
+      "has_life_crystal": "2019-02-11 12:39:03 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "desert_hills": "2019-02-11 12:24:33 +0200",
-      "river": "2019-02-11 12:24:43 +0200",
-      "desert": "2019-02-11 12:26:51 +0200"
+      "plains": "2019-02-11 12:38:55 +0200"
     },
     "done": false
   }

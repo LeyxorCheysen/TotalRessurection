@@ -152,11 +152,6 @@
                 {
                     "type": "item",
                     "name": "minecraft:golden_apple",
-                    "weight": 20
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:golden_apple",
                     "weight": 2,
                     "functions": [
                         {
