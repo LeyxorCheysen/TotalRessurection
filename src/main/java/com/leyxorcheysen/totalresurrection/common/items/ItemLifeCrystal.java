@@ -30,7 +30,7 @@ public class ItemLifeCrystal extends Item {
 	
 	public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
         
-		ItemStack itemstack = playerIn.getHeldItem(handIn);
+		ItemStack itemstack = new ItemStack(ItemsInit.LIFE_CRYSTAL);
 		
 		if(!worldIn.isRemote) {
 		
