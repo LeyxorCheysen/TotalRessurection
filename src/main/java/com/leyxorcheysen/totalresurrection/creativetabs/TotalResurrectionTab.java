@@ -9,7 +9,7 @@ public class TotalResurrectionTab extends CreativeTabs {
 
 	public TotalResurrectionTab() {
 		
-		super("total_resurection.name");
+		super("total_resurrection.name");
 		
 	}
 
