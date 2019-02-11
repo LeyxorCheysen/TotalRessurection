@@ -28,24 +28,24 @@ public class ItemLifeCrystal extends Item {
 		
 	}
 	
-	public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
+	public ActionResult<ItemStack> onItemRightClick(World world, EntityPlayer player, EnumHand hand) {
         
-		ItemStack itemstack = new ItemStack(ItemsInit.LIFE_CRYSTAL);
+		ItemStack itemstack = player.getHeldItem(hand);
 		
-		if(!worldIn.isRemote) {
+		if(!world.isRemote) {
 		
-			if(!playerIn.capabilities.isCreativeMode) {
+			if(!player.capabilities.isCreativeMode) {
 			
 				itemstack.shrink(1);
 			
 			}
 			
-			playerIn.addPotionEffect(new PotionEffect(MobEffects.ABSORPTION, 1200, 4));
-			playerIn.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 1200, 4));
+			player.addPotionEffect(new PotionEffect(MobEffects.ABSORPTION, 1200, 4));
+			player.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 1200, 4));
 		
 		}
 		
-		else playerIn.playSound(SoundEvents.BLOCK_GLASS_BREAK, 1.0F, 1.0F);
+		else player.playSound(SoundEvents.BLOCK_GLASS_BREAK, 1.0F, 1.0F);
         
         return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, itemstack);
             
