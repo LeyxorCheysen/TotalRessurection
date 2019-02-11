@@ -34,14 +34,14 @@ public class ItemLifeCrystal extends Item {
 		
 		if(!worldIn.isRemote) {
 		
-			if(playerIn.capabilities.isCreativeMode) {
+			if(!playerIn.capabilities.isCreativeMode) {
 			
-			itemstack.shrink(1);
+				itemstack.shrink(1);
 			
 			}
 			
-			playerIn.addPotionEffect(new PotionEffect(MobEffects.ABSORPTION, 1200, 3));
-			playerIn.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 1200, 3));
+			playerIn.addPotionEffect(new PotionEffect(MobEffects.ABSORPTION, 1200, 4));
+			playerIn.addPotionEffect(new PotionEffect(MobEffects.REGENERATION, 1200, 4));
 		
 		}
 		
