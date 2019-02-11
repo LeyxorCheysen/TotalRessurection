@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "totalresurrection:life_crystal"
+        },
+        "title": {
+            "translate": "advancements.totalresurrection.root.title"
+        },
+        "description": {
+            "translate": "advancements.totalresurrection.root.description"
+        },
+        "background": "totalresurrection:textures/gui/advancements/backgrounds/totalresurrection.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "has_life_crystal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+            "items": [
+                  {
+                     "item": "totalresurrection:life_crystal"
+                  }
+            ]
+      }
+        }
+    },
+    "requirements": [["has_life_crystal"]]
+}
