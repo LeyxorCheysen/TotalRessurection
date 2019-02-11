@@ -1,8 +1,11 @@
 package com.leyxorcheysen.totalresurrection.common.items;
 
+import com.leyxorcheysen.totalresurrection.init.ItemsInit;
+
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
+import net.minecraft.item.EnumRarity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
@@ -10,6 +13,8 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
 import net.minecraft.world.World;
+import net.minecraftforge.fml.relauncher.Side;
+import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ItemLifeCrystal extends Item {
 	
@@ -43,5 +48,18 @@ public class ItemLifeCrystal extends Item {
         return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, itemstack);
             
     }
+	
+	@SideOnly(Side.CLIENT)
+    public boolean hasEffect(ItemStack stack) {
+		
+        return true;
+        
+    }
+	
+	public EnumRarity getRarity(ItemStack stack) {
+		
+	    return ItemsInit.COMMON;
+	    
+	}
 
 }
