@@ -1,6 +1,7 @@
 package com.leyxorcheysen.totalresurrection.common.items;
 
 import com.leyxorcheysen.totalresurrection.init.ItemsInit;
+import com.leyxorcheysen.totalresurrection.init.TabsInit;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
@@ -20,6 +21,7 @@ public class ItemLifeCrystal extends Item {
 	
 	public ItemLifeCrystal() {
 		
+		this.setCreativeTab(TabsInit.TOTAL_RESURRECTION);
 		this.setMaxStackSize(16);
 		this.setRegistryName("life_crystal");
 		this.setUnlocalizedName("life_crystal");
