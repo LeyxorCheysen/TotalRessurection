@@ -4,12 +4,17 @@ import com.leyxorcheysen.totalresurrection.common.items.ItemLifeCrystal;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.EnumRarity;
 import net.minecraft.item.Item;
+import net.minecraft.util.text.TextFormatting;
+import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ItemsInit {
+	
+	public static EnumRarity COMMON = EnumHelper.addRarity("totalresurrection_common", TextFormatting.AQUA, "");
 	
 	public static final Item LIFE_CRYSTAL = new ItemLifeCrystal();
 	
