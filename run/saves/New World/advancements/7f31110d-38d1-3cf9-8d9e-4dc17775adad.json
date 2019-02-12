@@ -1,9 +1,32 @@
 {
+  "totalresurrection:totalresurrection/regeneration_jelly_achievement": {
+    "criteria": {
+      "has_regeneration_jelly": "2019-02-12 16:12:20 +0200"
+    },
+    "done": true
+  },
+  "totalresurrection:totalresurrection/regeneration_jelly_craft": {
+    "criteria": {
+      "has_ghast_tear": "2019-02-12 16:15:00 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2019-02-12 16:14:00 +0200"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "river": "2019-02-11 13:23:14 +0200",
-      "desert": "2019-02-11 13:23:42 +0200"
+      "plains": "2019-02-12 16:11:47 +0200"
     },
     "done": false
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2019-02-12 16:14:25 +0200"
+    },
+    "done": true
   }
 }

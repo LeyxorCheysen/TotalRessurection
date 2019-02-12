@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "totalresurrection:regeneration_jelly"
+        },
+        "title": {
+            "translate": "advancements.totalresurrection.regeneration_jelly.title"
+        },
+        "description": {
+            "translate": "advancements.totalresurrection.regeneration_jelly.description"
+        },
+        "frame": "goal"
+    },
+    "parent": "totalresurrection:totalresurrection/root",
+    "criteria": {
+        "has_regeneration_jelly": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                	{
+                		"item": "totalresurrection:regeneration_jelly"
+                	}
+                ]
+            }
+        }
+    }
+}
