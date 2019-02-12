@@ -1,6 +1,6 @@
 Symbol range map extraction starting
-Processing 8 files
-startProcessing "com\leyxorcheysen\totalresurrection\TotalResurrection.java" md5: a9289206cb3b036141d2917d2f4a20f8
+Processing 9 files
+startProcessing "com\leyxorcheysen\totalresurrection\TotalResurrection.java" md5: 28cadcf12cda5a4f7d8f49185f03cce0
 @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|8|43|com.leyxorcheysen.totalresurrection|package|com.leyxorcheysen.totalresurrection|(file)
 Class Start: com.leyxorcheysen.totalresurrection.TotalResurrection
    @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|517|520|Mod|class|net.minecraftforge.fml.common.Mod
@@ -54,6 +54,7 @@ Class End  : com.leyxorcheysen.totalresurrection.TotalResurrection
 endProcessing "com\leyxorcheysen\totalresurrection\TotalResurrection.java"
 
 startProcessing "com\leyxorcheysen\totalresurrection\client\ClientProxy.java" md5: 7072b20b4602fbe283b18cc77d9aa4eb
+Cache Hit!
 @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|8|50|com.leyxorcheysen.totalresurrection.client|package|com.leyxorcheysen.totalresurrection.client|(file)
 Class Start: com.leyxorcheysen.totalresurrection.client.ClientProxy
    @|com\leyxorcheysen\totalresurrection\client\ClientProxy.java|398|409|ClientProxy|class|com.leyxorcheysen.totalresurrection.client.ClientProxy
@@ -88,6 +89,7 @@ Class End  : com.leyxorcheysen.totalresurrection.client.ClientProxy
 endProcessing "com\leyxorcheysen\totalresurrection\client\ClientProxy.java"
 
 startProcessing "com\leyxorcheysen\totalresurrection\common\CommonProxy.java" md5: 76dd272cce20ffd7ff2fdb772d1e2b10
+Cache Hit!
 @|com\leyxorcheysen\totalresurrection\common\CommonProxy.java|8|50|com.leyxorcheysen.totalresurrection.common|package|com.leyxorcheysen.totalresurrection.common|(file)
 Class Start: com.leyxorcheysen.totalresurrection.common.CommonProxy
    @|com\leyxorcheysen\totalresurrection\common\CommonProxy.java|451|462|CommonProxy|class|com.leyxorcheysen.totalresurrection.common.CommonProxy
@@ -116,6 +118,7 @@ Class End  : com.leyxorcheysen.totalresurrection.common.CommonProxy
 endProcessing "com\leyxorcheysen\totalresurrection\common\CommonProxy.java"
 
 startProcessing "com\leyxorcheysen\totalresurrection\common\items\ItemLifeCrystal.java" md5: 8017e3091b781f0d9e6c82d7202f856a
+Cache Hit!
 @|com\leyxorcheysen\totalresurrection\common\items\ItemLifeCrystal.java|8|56|com.leyxorcheysen.totalresurrection.common.items|package|com.leyxorcheysen.totalresurrection.common.items|(file)
 Class Start: com.leyxorcheysen.totalresurrection.common.items.ItemLifeCrystal
    @|com\leyxorcheysen\totalresurrection\common\items\ItemLifeCrystal.java|718|733|ItemLifeCrystal|class|com.leyxorcheysen.totalresurrection.common.items.ItemLifeCrystal
@@ -187,7 +190,29 @@ Class Start: com.leyxorcheysen.totalresurrection.common.items.ItemLifeCrystal
 Class End  : com.leyxorcheysen.totalresurrection.common.items.ItemLifeCrystal
 endProcessing "com\leyxorcheysen\totalresurrection\common\items\ItemLifeCrystal.java"
 
+startProcessing "com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java" md5: 36adc663eb535eb758f691bee8ae8f6d
+@|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|8|56|com.leyxorcheysen.totalresurrection.common.items|package|com.leyxorcheysen.totalresurrection.common.items|(file)
+Class Start: com.leyxorcheysen.totalresurrection.common.items.ItemRegenerationJelly
+   @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|248|269|ItemRegenerationJelly|class|com.leyxorcheysen.totalresurrection.common.items.ItemRegenerationJelly
+   @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|278|286|ItemFood|class|net.minecraft.item.ItemFood
+   Method Start: ItemRegenerationJelly()V
+      @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|298|319|ItemRegenerationJelly|method|com.leyxorcheysen.totalresurrection.common.items.ItemRegenerationJelly|ItemRegenerationJelly|()V
+      @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|362|376|setCreativeTab|method|net.minecraft.item.Item|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;
+      @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|377|385|TabsInit|class|com.leyxorcheysen.totalresurrection.init.TabsInit
+      @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|386|404|TOTAL_RESURRECTION|field|com.leyxorcheysen.totalresurrection.init.TabsInit|TOTAL_RESURRECTION
+      @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|414|429|setMaxStackSize|method|net.minecraft.item.Item|setMaxStackSize|(I)Lnet/minecraft/item/Item;
+      @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|442|457|setPotionEffect|method|net.minecraft.item.ItemFood|setPotionEffect|(Lnet/minecraft/potion/PotionEffect;F)Lnet/minecraft/item/ItemFood;
+      @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|462|474|PotionEffect|class|net.minecraft.potion.PotionEffect
+      @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|475|485|MobEffects|class|net.minecraft.init.MobEffects
+      @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|486|498|REGENERATION|field|net.minecraft.init.MobEffects|REGENERATION
+      @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|526|541|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
+      @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|572|590|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+   Method End: ItemRegenerationJelly()V
+Class End  : com.leyxorcheysen.totalresurrection.common.items.ItemRegenerationJelly
+endProcessing "com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java"
+
 startProcessing "com\leyxorcheysen\totalresurrection\creativetabs\TotalResurrectionTab.java" md5: 3e533056c4f922c7f1001014e9a7643b
+Cache Hit!
 @|com\leyxorcheysen\totalresurrection\creativetabs\TotalResurrectionTab.java|8|56|com.leyxorcheysen.totalresurrection.creativetabs|package|com.leyxorcheysen.totalresurrection.creativetabs|(file)
 Class Start: com.leyxorcheysen.totalresurrection.creativetabs.TotalResurrectionTab
    @|com\leyxorcheysen\totalresurrection\creativetabs\TotalResurrectionTab.java|217|237|TotalResurrectionTab|class|com.leyxorcheysen.totalresurrection.creativetabs.TotalResurrectionTab
@@ -206,7 +231,7 @@ Class Start: com.leyxorcheysen.totalresurrection.creativetabs.TotalResurrectionT
 Class End  : com.leyxorcheysen.totalresurrection.creativetabs.TotalResurrectionTab
 endProcessing "com\leyxorcheysen\totalresurrection\creativetabs\TotalResurrectionTab.java"
 
-startProcessing "com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java" md5: ba4f478454fad2045ceaed22e02b5504
+startProcessing "com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java" md5: c45b81fd0569e952dd9b0e01669a756f
 @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|8|52|com.leyxorcheysen.totalresurrection.handlers|package|com.leyxorcheysen.totalresurrection.handlers|(file)
 Class Start: com.leyxorcheysen.totalresurrection.handlers.EventsHandler
    @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|640|653|EventsHandler|class|com.leyxorcheysen.totalresurrection.handlers.EventsHandler
@@ -218,119 +243,128 @@ Class Start: com.leyxorcheysen.totalresurrection.handlers.EventsHandler
    @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|700|713|ImmutableList|class|com.google.common.collect.ImmutableList
    @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|714|716|of|method|com.google.common.collect.ImmutableList|of|(Ljava/lang/Object;)Lcom/google/common/collect/ImmutableList;
    Method Start: EventsHandler()V
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|743|756|EventsHandler|method|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|EventsHandler|()V
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|771|777|String|class|java.lang.String
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|782|788|TABLES|field|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|TABLES
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|799|812|LootTableList|class|net.minecraft.world.storage.loot.LootTableList
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|813|821|register|method|net.minecraft.world.storage.loot.LootTableList|register|(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/util/ResourceLocation;
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|826|842|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|738|751|EventsHandler|method|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|EventsHandler|()V
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|766|772|String|class|java.lang.String
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|777|783|TABLES|field|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|TABLES
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|794|807|LootTableList|class|net.minecraft.world.storage.loot.LootTableList
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|808|816|register|method|net.minecraft.world.storage.loot.LootTableList|register|(Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/util/ResourceLocation;
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|821|837|ResourceLocation|class|net.minecraft.util.ResourceLocation
    Method End: EventsHandler()V
    Method Start: lootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|940|943|evt|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|lootLoad|(Lnet/minecraftforge/event/LootTableLoadEvent;)V|evt|0
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|884|898|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|912|920|lootLoad|method|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|lootLoad|(Lnet/minecraftforge/event/LootTableLoadEvent;)V
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|921|939|LootTableLoadEvent|class|net.minecraftforge.event.LootTableLoadEvent
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|949|955|String|class|java.lang.String
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|988|994|String|class|java.lang.String
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1002|1005|evt|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|lootLoad|(Lnet/minecraftforge/event/LootTableLoadEvent;)V|evt|0
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1006|1013|getName|method|net.minecraftforge.event.LootTableLoadEvent|getName|()Lnet/minecraft/util/ResourceLocation;
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1016|1024|toString|method|java.lang.Object|toString|()Ljava/lang/String;
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1040|1050|startsWith|method|java.lang.String|startsWith|(Ljava/lang/String;)Z
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1065|1071|String|class|java.lang.String
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1084|1093|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1099|1106|indexOf|method|java.lang.String|indexOf|(Ljava/lang/String;)I
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1124|1130|length|method|java.lang.CharSequence|length|()I
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1179|1182|evt|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|lootLoad|(Lnet/minecraftforge/event/LootTableLoadEvent;)V|evt|0
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1183|1191|getTable|method|net.minecraftforge.event.LootTableLoadEvent|getTable|()Lnet/minecraft/world/storage/loot/LootTable;
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1194|1201|addPool|method|net.minecraft.world.storage.loot.LootTable|addPool|(Lnet/minecraft/world/storage/loot/LootPool;)V
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1202|1215|getInjectPool|method|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectPool|(Ljava/lang/String;)Lnet/minecraft/world/storage/loot/LootPool;
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|935|938|evt|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|lootLoad|(Lnet/minecraftforge/event/LootTableLoadEvent;)V|evt|0
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|879|893|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|907|915|lootLoad|method|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|lootLoad|(Lnet/minecraftforge/event/LootTableLoadEvent;)V
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|916|934|LootTableLoadEvent|class|net.minecraftforge.event.LootTableLoadEvent
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|947|953|String|class|java.lang.String
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|986|992|String|class|java.lang.String
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1000|1003|evt|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|lootLoad|(Lnet/minecraftforge/event/LootTableLoadEvent;)V|evt|0
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1004|1011|getName|method|net.minecraftforge.event.LootTableLoadEvent|getName|()Lnet/minecraft/util/ResourceLocation;
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1014|1022|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1038|1048|startsWith|method|java.lang.String|startsWith|(Ljava/lang/String;)Z
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1067|1073|String|class|java.lang.String
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1086|1095|substring|method|java.lang.String|substring|(I)Ljava/lang/String;
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1101|1108|indexOf|method|java.lang.String|indexOf|(Ljava/lang/String;)I
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1126|1132|length|method|java.lang.CharSequence|length|()I
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1290|1293|evt|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|lootLoad|(Lnet/minecraftforge/event/LootTableLoadEvent;)V|evt|0
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1294|1302|getTable|method|net.minecraftforge.event.LootTableLoadEvent|getTable|()Lnet/minecraft/world/storage/loot/LootTable;
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1305|1312|addPool|method|net.minecraft.world.storage.loot.LootTable|addPool|(Lnet/minecraft/world/storage/loot/LootPool;)V
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1313|1326|getInjectPool|method|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectPool|(Ljava/lang/String;)Lnet/minecraft/world/storage/loot/LootPool;
    Method End: lootLoad(Lnet/minecraftforge/event/LootTableLoadEvent;)V
    Method Start: getInjectPool(Ljava/lang/String;)Lnet/minecraft/world/storage/loot/LootPool;
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1302|1311|entryName|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectPool|(Ljava/lang/String;)Lnet/minecraft/world/storage/loot/LootPool;|entryName|0
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1272|1280|LootPool|class|net.minecraft.world.storage.loot.LootPool
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1281|1294|getInjectPool|method|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectPool|(Ljava/lang/String;)Lnet/minecraft/world/storage/loot/LootPool;
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1295|1301|String|class|java.lang.String
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1328|1336|LootPool|class|net.minecraft.world.storage.loot.LootPool
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1341|1350|LootEntry|class|net.minecraft.world.storage.loot.LootEntry
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1355|1369|getInjectEntry|method|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectEntry|(Ljava/lang/String;I)Lnet/minecraft/world/storage/loot/LootEntryTable;
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1370|1379|entryName|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectPool|(Ljava/lang/String;)Lnet/minecraft/world/storage/loot/LootPool;|entryName|0
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1391|1404|LootCondition|class|net.minecraft.world.storage.loot.conditions.LootCondition
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1413|1429|RandomValueRange|class|net.minecraft.world.storage.loot.RandomValueRange
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1438|1454|RandomValueRange|class|net.minecraft.world.storage.loot.RandomValueRange
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1423|1432|entryName|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectPool|(Ljava/lang/String;)Lnet/minecraft/world/storage/loot/LootPool;|entryName|0
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1393|1401|LootPool|class|net.minecraft.world.storage.loot.LootPool
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1402|1415|getInjectPool|method|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectPool|(Ljava/lang/String;)Lnet/minecraft/world/storage/loot/LootPool;
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1416|1422|String|class|java.lang.String
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1452|1460|LootPool|class|net.minecraft.world.storage.loot.LootPool
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1465|1474|LootEntry|class|net.minecraft.world.storage.loot.LootEntry
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1479|1493|getInjectEntry|method|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectEntry|(Ljava/lang/String;I)Lnet/minecraft/world/storage/loot/LootEntryTable;
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1494|1503|entryName|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectPool|(Ljava/lang/String;)Lnet/minecraft/world/storage/loot/LootPool;|entryName|0
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1515|1528|LootCondition|class|net.minecraft.world.storage.loot.conditions.LootCondition
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1537|1553|RandomValueRange|class|net.minecraft.world.storage.loot.RandomValueRange
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1562|1578|RandomValueRange|class|net.minecraft.world.storage.loot.RandomValueRange
    Method End: getInjectPool(Ljava/lang/String;)Lnet/minecraft/world/storage/loot/LootPool;
    Method Start: getInjectEntry(Ljava/lang/String;I)Lnet/minecraft/world/storage/loot/LootEntryTable;
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1534|1538|name|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectEntry|(Ljava/lang/String;I)Lnet/minecraft/world/storage/loot/LootEntryTable;|name|0
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1544|1550|weight|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectEntry|(Ljava/lang/String;I)Lnet/minecraft/world/storage/loot/LootEntryTable;|weight|1
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1497|1511|LootEntryTable|class|net.minecraft.world.storage.loot.LootEntryTable
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1512|1526|getInjectEntry|method|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectEntry|(Ljava/lang/String;I)Lnet/minecraft/world/storage/loot/LootEntryTable;
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1527|1533|String|class|java.lang.String
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1567|1581|LootEntryTable|class|net.minecraft.world.storage.loot.LootEntryTable
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1586|1602|ResourceLocation|class|net.minecraft.util.ResourceLocation
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1636|1640|name|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectEntry|(Ljava/lang/String;I)Lnet/minecraft/world/storage/loot/LootEntryTable;|name|0
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1643|1649|weight|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectEntry|(Ljava/lang/String;I)Lnet/minecraft/world/storage/loot/LootEntryTable;|weight|1
-      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1658|1671|LootCondition|class|net.minecraft.world.storage.loot.conditions.LootCondition
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1660|1664|name|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectEntry|(Ljava/lang/String;I)Lnet/minecraft/world/storage/loot/LootEntryTable;|name|0
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1670|1676|weight|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectEntry|(Ljava/lang/String;I)Lnet/minecraft/world/storage/loot/LootEntryTable;|weight|1
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1623|1637|LootEntryTable|class|net.minecraft.world.storage.loot.LootEntryTable
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1638|1652|getInjectEntry|method|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectEntry|(Ljava/lang/String;I)Lnet/minecraft/world/storage/loot/LootEntryTable;
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1653|1659|String|class|java.lang.String
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1696|1710|LootEntryTable|class|net.minecraft.world.storage.loot.LootEntryTable
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1715|1731|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1765|1769|name|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectEntry|(Ljava/lang/String;I)Lnet/minecraft/world/storage/loot/LootEntryTable;|name|0
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1772|1778|weight|param|com.leyxorcheysen.totalresurrection.handlers.EventsHandler|getInjectEntry|(Ljava/lang/String;I)Lnet/minecraft/world/storage/loot/LootEntryTable;|weight|1
+      @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|1787|1800|LootCondition|class|net.minecraft.world.storage.loot.conditions.LootCondition
    Method End: getInjectEntry(Ljava/lang/String;I)Lnet/minecraft/world/storage/loot/LootEntryTable;
 Class End  : com.leyxorcheysen.totalresurrection.handlers.EventsHandler
 endProcessing "com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java"
 
-startProcessing "com\leyxorcheysen\totalresurrection\init\ItemsInit.java" md5: 5e1c6dbca8bdedf216420f464b225fd0
+startProcessing "com\leyxorcheysen\totalresurrection\init\ItemsInit.java" md5: 76671f91021d7bff63edd61727e51f45
 @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|8|48|com.leyxorcheysen.totalresurrection.init|package|com.leyxorcheysen.totalresurrection.init|(file)
 Class Start: com.leyxorcheysen.totalresurrection.init.ItemsInit
-   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|578|587|ItemsInit|class|com.leyxorcheysen.totalresurrection.init.ItemsInit
-   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|607|617|EnumRarity|class|net.minecraft.item.EnumRarity
-   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|607|617|EnumRarity|class|net.minecraft.item.EnumRarity
-   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|618|624|COMMON|field|com.leyxorcheysen.totalresurrection.init.ItemsInit|COMMON|
-   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|627|637|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
-   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|638|647|addRarity|method|net.minecraftforge.common.util.EnumHelper|addRarity|(Ljava/lang/String;Lnet/minecraft/util/text/TextFormatting;Ljava/lang/String;)Lnet/minecraft/item/EnumRarity;
-   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|676|690|TextFormatting|class|net.minecraft.util.text.TextFormatting
-   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|691|695|AQUA|field|net.minecraft.util.text.TextFormatting|AQUA
-   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|725|729|Item|class|net.minecraft.item.Item
-   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|725|729|Item|class|net.minecraft.item.Item
-   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|730|742|LIFE_CRYSTAL|field|com.leyxorcheysen.totalresurrection.init.ItemsInit|LIFE_CRYSTAL|
-   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|749|764|ItemLifeCrystal|class|com.leyxorcheysen.totalresurrection.common.items.ItemLifeCrystal
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|693|702|ItemsInit|class|com.leyxorcheysen.totalresurrection.init.ItemsInit
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|722|732|EnumRarity|class|net.minecraft.item.EnumRarity
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|722|732|EnumRarity|class|net.minecraft.item.EnumRarity
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|733|739|COMMON|field|com.leyxorcheysen.totalresurrection.init.ItemsInit|COMMON|
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|742|752|EnumHelper|class|net.minecraftforge.common.util.EnumHelper
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|753|762|addRarity|method|net.minecraftforge.common.util.EnumHelper|addRarity|(Ljava/lang/String;Lnet/minecraft/util/text/TextFormatting;Ljava/lang/String;)Lnet/minecraft/item/EnumRarity;
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|791|805|TextFormatting|class|net.minecraft.util.text.TextFormatting
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|806|810|AQUA|field|net.minecraft.util.text.TextFormatting|AQUA
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|840|844|Item|class|net.minecraft.item.Item
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|840|844|Item|class|net.minecraft.item.Item
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|845|857|LIFE_CRYSTAL|field|com.leyxorcheysen.totalresurrection.init.ItemsInit|LIFE_CRYSTAL|
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|864|879|ItemLifeCrystal|class|com.leyxorcheysen.totalresurrection.common.items.ItemLifeCrystal
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|904|912|ItemFood|class|net.minecraft.item.ItemFood
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|904|912|ItemFood|class|net.minecraft.item.ItemFood
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|913|931|REGENERATION_JELLY|field|com.leyxorcheysen.totalresurrection.init.ItemsInit|REGENERATION_JELLY|
+   @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|938|959|ItemRegenerationJelly|class|com.leyxorcheysen.totalresurrection.common.items.ItemRegenerationJelly
    Method Start: registerItems()V
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|790|803|registerItems|method|com.leyxorcheysen.totalresurrection.init.ItemsInit|registerItems|()V
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|813|824|setRegister|method|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|825|837|LIFE_CRYSTAL|field|com.leyxorcheysen.totalresurrection.init.ItemsInit|LIFE_CRYSTAL
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|985|998|registerItems|method|com.leyxorcheysen.totalresurrection.init.ItemsInit|registerItems|()V
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1008|1019|setRegister|method|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1020|1032|LIFE_CRYSTAL|field|com.leyxorcheysen.totalresurrection.init.ItemsInit|LIFE_CRYSTAL
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1037|1048|setRegister|method|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1049|1067|REGENERATION_JELLY|field|com.leyxorcheysen.totalresurrection.init.ItemsInit|REGENERATION_JELLY
    Method End: registerItems()V
    Method Start: registerRenders()V
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|855|863|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|864|868|Side|class|net.minecraftforge.fml.relauncher.Side
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|869|875|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|900|915|registerRenders|method|com.leyxorcheysen.totalresurrection.init.ItemsInit|registerRenders|()V
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|931|940|setRender|method|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|941|953|LIFE_CRYSTAL|field|com.leyxorcheysen.totalresurrection.init.ItemsInit|LIFE_CRYSTAL
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1085|1093|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1094|1098|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1099|1105|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1130|1145|registerRenders|method|com.leyxorcheysen.totalresurrection.init.ItemsInit|registerRenders|()V
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1161|1170|setRender|method|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1171|1183|LIFE_CRYSTAL|field|com.leyxorcheysen.totalresurrection.init.ItemsInit|LIFE_CRYSTAL
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1191|1200|setRender|method|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1201|1219|REGENERATION_JELLY|field|com.leyxorcheysen.totalresurrection.init.ItemsInit|REGENERATION_JELLY
    Method End: registerRenders()V
    Method Start: setRegister(Lnet/minecraft/item/Item;)V
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1010|1014|item|param|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V|item|0
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|993|1004|setRegister|method|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1005|1009|Item|class|net.minecraft.item.Item
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1032|1047|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1048|1053|ITEMS|field|net.minecraftforge.fml.common.registry.ForgeRegistries|ITEMS
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1054|1062|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1063|1067|item|param|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1276|1280|item|param|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1259|1270|setRegister|method|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1271|1275|Item|class|net.minecraft.item.Item
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1298|1313|ForgeRegistries|class|net.minecraftforge.fml.common.registry.ForgeRegistries
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1314|1319|ITEMS|field|net.minecraftforge.fml.common.registry.ForgeRegistries|ITEMS
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1320|1328|register|method|net.minecraftforge.registries.IForgeRegistry|register|(Lnet/minecraftforge/registries/IForgeRegistryEntry;)V
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1329|1333|item|param|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRegister|(Lnet/minecraft/item/Item;)V|item|0
    Method End: setRegister(Lnet/minecraft/item/Item;)V
    Method Start: setRender(Lnet/minecraft/item/Item;)V
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1152|1156|item|param|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V|item|0
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1091|1099|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1100|1104|Side|class|net.minecraftforge.fml.relauncher.Side
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1105|1111|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1137|1146|setRender|method|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1147|1151|Item|class|net.minecraft.item.Item
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1171|1180|Minecraft|class|net.minecraft.client.Minecraft
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1181|1193|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1196|1209|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1212|1230|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1233|1241|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1242|1246|item|param|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V|item|0
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1255|1276|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1277|1281|item|param|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V|item|0
-      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1282|1297|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1418|1422|item|param|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1357|1365|SideOnly|class|net.minecraftforge.fml.relauncher.SideOnly
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1366|1370|Side|class|net.minecraftforge.fml.relauncher.Side
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1371|1377|CLIENT|field|net.minecraftforge.fml.relauncher.Side|CLIENT
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1403|1412|setRender|method|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1413|1417|Item|class|net.minecraft.item.Item
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1437|1446|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1447|1459|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1462|1475|getRenderItem|method|net.minecraft.client.Minecraft|getRenderItem|()Lnet/minecraft/client/renderer/RenderItem;
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1478|1496|getItemModelMesher|method|net.minecraft.client.renderer.RenderItem|getItemModelMesher|()Lnet/minecraft/client/renderer/ItemModelMesher;
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1499|1507|register|method|net.minecraft.client.renderer.ItemModelMesher|register|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1508|1512|item|param|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1521|1542|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1543|1547|item|param|com.leyxorcheysen.totalresurrection.init.ItemsInit|setRender|(Lnet/minecraft/item/Item;)V|item|0
+      @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|1548|1563|getRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry|getRegistryName|()Lnet/minecraft/util/ResourceLocation;
    Method End: setRender(Lnet/minecraft/item/Item;)V
 Class End  : com.leyxorcheysen.totalresurrection.init.ItemsInit
 endProcessing "com\leyxorcheysen\totalresurrection\init\ItemsInit.java"
 
 startProcessing "com\leyxorcheysen\totalresurrection\init\TabsInit.java" md5: fe361677c5f2ff6532a9913029a96fa0
+Cache Hit!
 @|com\leyxorcheysen\totalresurrection\init\TabsInit.java|8|48|com.leyxorcheysen.totalresurrection.init|package|com.leyxorcheysen.totalresurrection.init|(file)
 Class Start: com.leyxorcheysen.totalresurrection.init.TabsInit
    @|com\leyxorcheysen\totalresurrection\init\TabsInit.java|191|199|TabsInit|class|com.leyxorcheysen.totalresurrection.init.TabsInit
