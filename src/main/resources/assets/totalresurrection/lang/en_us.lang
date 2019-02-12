@@ -1,4 +1,7 @@
 itemGroup.total_resurrection.name=Total Resurrection
 item.life_crystal.name=Life crystal
+item.regeneration_jelly.name=Regeneration jelly
 advancements.totalresurrection.root.title=Life
 advancements.totalresurrection.root.description=Life force management
+advancements.totalresurrection.regeneration_jelly.title=Tasty and healthy
+advancements.totalresurrection.regeneration_jelly.description=Make a regenerating jelly from just hellish components
