@@ -3,10 +3,11 @@
   "1.12.2": {
     "0.0.0": "Created full mod core.",
     "0.0.1": "Added proxy and instance.",
-    "0.1.0": "Added life crystal."
+    "0.1.0": "Added life crystal.",
+    "0.2.0": "Added regeneration jelly."
   },
   "promos": {
-    "1.12.2-latest": "0.1.0",
-    "1.12.2-recommended": "0.1.0"
+    "1.12.2-latest": "0.2.0",
+    "1.12.2-recommended": "0.2.0"
   }
 }
