@@ -1,0 +1,25 @@
+{
+  "parent": "totalresurrection:totalresurrection/root",
+  "rewards": {
+    "recipes": [
+      "totalresurrection:regeneration_jelly"
+    ]
+  },
+  "criteria": {
+    "has_ghast_tear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:ghast_tear"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ghast_tear"
+    ]
+  ]
+}
