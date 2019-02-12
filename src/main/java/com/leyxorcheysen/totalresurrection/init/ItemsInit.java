@@ -1,11 +1,13 @@
 package com.leyxorcheysen.totalresurrection.init;
 
 import com.leyxorcheysen.totalresurrection.common.items.ItemLifeCrystal;
+import com.leyxorcheysen.totalresurrection.common.items.ItemRegenerationJelly;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemFood;
 import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.ForgeRegistries;
@@ -17,10 +19,12 @@ public class ItemsInit {
 	public static EnumRarity COMMON = EnumHelper.addRarity("totalresurrection_common", TextFormatting.AQUA, "");
 	
 	public static final Item LIFE_CRYSTAL = new ItemLifeCrystal();
+	public static final ItemFood REGENERATION_JELLY = new ItemRegenerationJelly();
 	
 	public static void registerItems() {
 		
 		setRegister(LIFE_CRYSTAL);
+		setRegister(REGENERATION_JELLY);
 		
     }
 
@@ -28,6 +32,7 @@ public class ItemsInit {
     public static void registerRenders() {
     	
     	setRender(LIFE_CRYSTAL);
+    	setRender(REGENERATION_JELLY);
     	
     }
 
