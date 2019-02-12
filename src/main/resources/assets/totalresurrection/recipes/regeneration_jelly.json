@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " B ",
+        "BAB",
+        " B "
+    ],
+    "key": {
+        "A": {
+            "item": "minecraft:slime_ball"
+        },
+        "B": {
+            "item": "minecraft:ghast_tear"
+        }
+    },
+    "result": {
+        "item": "totalresurrection:regeneration_jelly"
+    }
+}
