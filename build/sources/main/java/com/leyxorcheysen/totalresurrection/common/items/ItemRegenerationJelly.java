@@ -17,13 +17,8 @@ public class ItemRegenerationJelly extends ItemFood {
 		this.setPotionEffect(new PotionEffect(MobEffects.REGENERATION, 1200, 4), 100.0F);
 		this.setRegistryName("regeneration_jelly");
 		this.setUnlocalizedName("regeneration_jelly");
+		this.setAlwaysEdible();
 		
 	}
-	
-	public ItemFood setAlwaysEdible() {
-		
-        return this;
-        
-    }
 
 }

@@ -1,6 +1,6 @@
 Symbol range map extraction starting
 Processing 9 files
-startProcessing "com\leyxorcheysen\totalresurrection\TotalResurrection.java" md5: 28cadcf12cda5a4f7d8f49185f03cce0
+startProcessing "com\leyxorcheysen\totalresurrection\TotalResurrection.java" md5: 1371540be1de0b9a9847c75635cf9a82
 @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|8|43|com.leyxorcheysen.totalresurrection|package|com.leyxorcheysen.totalresurrection|(file)
 Class Start: com.leyxorcheysen.totalresurrection.TotalResurrection
    @|com\leyxorcheysen\totalresurrection\TotalResurrection.java|517|520|Mod|class|net.minecraftforge.fml.common.Mod
@@ -190,7 +190,7 @@ Class Start: com.leyxorcheysen.totalresurrection.common.items.ItemLifeCrystal
 Class End  : com.leyxorcheysen.totalresurrection.common.items.ItemLifeCrystal
 endProcessing "com\leyxorcheysen\totalresurrection\common\items\ItemLifeCrystal.java"
 
-startProcessing "com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java" md5: 36adc663eb535eb758f691bee8ae8f6d
+startProcessing "com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java" md5: 4428c705be497fe22cec3c9fb765268a
 @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|8|56|com.leyxorcheysen.totalresurrection.common.items|package|com.leyxorcheysen.totalresurrection.common.items|(file)
 Class Start: com.leyxorcheysen.totalresurrection.common.items.ItemRegenerationJelly
    @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|248|269|ItemRegenerationJelly|class|com.leyxorcheysen.totalresurrection.common.items.ItemRegenerationJelly
@@ -207,6 +207,7 @@ Class Start: com.leyxorcheysen.totalresurrection.common.items.ItemRegenerationJe
       @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|486|498|REGENERATION|field|net.minecraft.init.MobEffects|REGENERATION
       @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|526|541|setRegistryName|method|net.minecraftforge.registries.IForgeRegistryEntry.Impl|setRegistryName|(Ljava/lang/String;)Lnet/minecraftforge/registries/IForgeRegistryEntry;
       @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|572|590|setUnlocalizedName|method|net.minecraft.item.Item|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/item/Item;
+      @|com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java|621|636|setAlwaysEdible|method|net.minecraft.item.ItemFood|setAlwaysEdible|()Lnet/minecraft/item/ItemFood;
    Method End: ItemRegenerationJelly()V
 Class End  : com.leyxorcheysen.totalresurrection.common.items.ItemRegenerationJelly
 endProcessing "com\leyxorcheysen\totalresurrection\common\items\ItemRegenerationJelly.java"
@@ -232,6 +233,7 @@ Class End  : com.leyxorcheysen.totalresurrection.creativetabs.TotalResurrectionT
 endProcessing "com\leyxorcheysen\totalresurrection\creativetabs\TotalResurrectionTab.java"
 
 startProcessing "com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java" md5: c45b81fd0569e952dd9b0e01669a756f
+Cache Hit!
 @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|8|52|com.leyxorcheysen.totalresurrection.handlers|package|com.leyxorcheysen.totalresurrection.handlers|(file)
 Class Start: com.leyxorcheysen.totalresurrection.handlers.EventsHandler
    @|com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java|640|653|EventsHandler|class|com.leyxorcheysen.totalresurrection.handlers.EventsHandler
@@ -299,6 +301,7 @@ Class End  : com.leyxorcheysen.totalresurrection.handlers.EventsHandler
 endProcessing "com\leyxorcheysen\totalresurrection\handlers\EventsHandler.java"
 
 startProcessing "com\leyxorcheysen\totalresurrection\init\ItemsInit.java" md5: 76671f91021d7bff63edd61727e51f45
+Cache Hit!
 @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|8|48|com.leyxorcheysen.totalresurrection.init|package|com.leyxorcheysen.totalresurrection.init|(file)
 Class Start: com.leyxorcheysen.totalresurrection.init.ItemsInit
    @|com\leyxorcheysen\totalresurrection\init\ItemsInit.java|693|702|ItemsInit|class|com.leyxorcheysen.totalresurrection.init.ItemsInit
