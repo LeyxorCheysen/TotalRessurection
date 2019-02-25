@@ -19,5 +19,11 @@ public class ItemRegenerationJelly extends ItemFood {
 		this.setUnlocalizedName("regeneration_jelly");
 		
 	}
+	
+	public ItemFood setAlwaysEdible() {
+		
+        return this;
+        
+    }
 
 }

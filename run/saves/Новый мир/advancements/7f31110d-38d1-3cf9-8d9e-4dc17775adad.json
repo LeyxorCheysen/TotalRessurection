@@ -1,0 +1,26 @@
+{
+  "totalresurrection:totalresurrection/regeneration_jelly_achievement": {
+    "criteria": {
+      "has_regeneration_jelly": "2019-02-26 01:30:51 +0200"
+    },
+    "done": true
+  },
+  "totalresurrection:totalresurrection/regeneration_jelly_craft": {
+    "criteria": {
+      "has_ghast_tear": "2019-02-26 01:30:24 +0200"
+    },
+    "done": true
+  },
+  "totalresurrection:totalresurrection/root": {
+    "criteria": {
+      "has_life_crystal": "2019-02-26 01:30:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2019-02-26 01:29:49 +0200"
+    },
+    "done": false
+  }
+}
