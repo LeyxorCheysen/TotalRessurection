@@ -1,4 +1,4 @@
-package com.leyxorcheysen.totalresurrection.handlers;
+package com.leyxorcheysen.totalresurrection.events;
 
 import java.util.List;
 
@@ -14,19 +14,19 @@ import net.minecraft.world.storage.loot.conditions.LootCondition;
 import net.minecraftforge.event.LootTableLoadEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-public class EventsHandler {
+public class EventInjectLootPools {
 
-private static final List<String> TABLES = ImmutableList.of("default");
+	private static final List<String> TABLES = ImmutableList.of("default");
 
-	public EventsHandler() {
+		public EventInjectLootPools() {
 		
-		for (String s : TABLES) {
+			for (String s : TABLES) {
 			
-			LootTableList.register(new ResourceLocation("totalresurrection", s));
+				LootTableList.register(new ResourceLocation("totalresurrection", s));
 			
-		}
+			}
 
-	}
+		}
 
 	@SubscribeEvent
 	public void lootLoad(LootTableLoadEvent evt) {
