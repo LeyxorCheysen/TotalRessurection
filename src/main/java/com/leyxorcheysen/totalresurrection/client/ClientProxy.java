@@ -1,6 +1,7 @@
 package com.leyxorcheysen.totalresurrection.client;
 
 import com.leyxorcheysen.totalresurrection.common.CommonProxy;
+import com.leyxorcheysen.totalresurrection.init.BlocksInit;
 import com.leyxorcheysen.totalresurrection.init.ItemsInit;
 
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -21,7 +22,8 @@ public class ClientProxy extends CommonProxy {
     	
         super.init(event);
         
-        ItemsInit.registerRenders();
+        BlocksInit.registerRender();
+        ItemsInit.registerRender();
         
     }
 
