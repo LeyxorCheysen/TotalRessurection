@@ -4,12 +4,11 @@
             "item": "totalresurrection:regeneration_jelly"
         },
         "title": {
-            "translate": "advancements.totalresurrection.regeneration_jelly.title"
+            "translate": "advancements.totalresurrection.tasty_and_healthy.title"
         },
         "description": {
-            "translate": "advancements.totalresurrection.regeneration_jelly.description"
-        },
-        "frame": "goal"
+            "translate": "advancements.totalresurrection.tasty_and_healthy.description"
+        }
     },
     "parent": "totalresurrection:totalresurrection/root",
     "criteria": {
