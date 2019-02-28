@@ -1,7 +1,11 @@
 itemGroup.total_resurrection.name=Тотальное воскрешение
+tile.crystal_ice.name=Блок кисталического льда
 item.life_crystal.name=Жизненный кристалл
 item.regeneration_jelly.name=Желе регенерации
+item.crystal_ice.name=Кристалический лёд
 advancements.totalresurrection.root.title=Жизнь
 advancements.totalresurrection.root.description=Полное управление жизнью и смертью
-advancements.totalresurrection.regeneration_jelly.title=И вкусно и полезно
-advancements.totalresurrection.regeneration_jelly.description=Соедините противную слизь и слегка солёные слёзы гаста, как холодец, не так ли?
+advancements.totalresurrection.tasty_and_healthy.title=И вкусно и полезно
+advancements.totalresurrection.tasty_and_healthy.description=Соедините противную слизь и слегка солёные слёзы гаста
+advancements.totalresurrection.cold_but_fine.title=Словно генератор холода
+advancements.totalresurrection.cold_but_fine.description=Найдите лёд, который не тает

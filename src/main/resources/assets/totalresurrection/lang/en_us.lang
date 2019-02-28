@@ -1,7 +1,11 @@
 itemGroup.total_resurrection.name=Total Resurrection
+tile.crystal_ice_block.name=Crystal ice block
 item.life_crystal.name=Life crystal
 item.regeneration_jelly.name=Regeneration jelly
+item.crystal_ice.name=Crystal ice
 advancements.totalresurrection.root.title=Life
 advancements.totalresurrection.root.description=Life force management
-advancements.totalresurrection.regeneration_jelly.title=Tasty and healthy
-advancements.totalresurrection.regeneration_jelly.description=Make a regenerating jelly from just hellish components
+advancements.totalresurrection.tasty_and_healthy.title=Tasty and healthy
+advancements.totalresurrection.tasty_and_healthy.description=Make a regenerating jelly from just hellish components
+advancements.totalresurrection.cold_but_fine.title=Like a cold generator
+advancements.totalresurrection.cold_but_fine.description=Find non-melting ice
