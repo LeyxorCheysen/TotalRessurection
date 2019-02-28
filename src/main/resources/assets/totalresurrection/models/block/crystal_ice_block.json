@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "totalresurrection:blocks/crystal_ice_block"
+    }
+}
