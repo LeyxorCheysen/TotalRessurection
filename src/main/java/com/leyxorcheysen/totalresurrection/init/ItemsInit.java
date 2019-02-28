@@ -1,5 +1,6 @@
 package com.leyxorcheysen.totalresurrection.init;
 
+import com.leyxorcheysen.totalresurrection.common.items.ItemCrystalIce;
 import com.leyxorcheysen.totalresurrection.common.items.ItemLifeCrystal;
 import com.leyxorcheysen.totalresurrection.common.items.ItemRegenerationJelly;
 
@@ -20,19 +21,22 @@ public class ItemsInit {
 	
 	public static final Item LIFE_CRYSTAL = new ItemLifeCrystal();
 	public static final ItemFood REGENERATION_JELLY = new ItemRegenerationJelly();
+	public static final Item CRYSTAL_ICE = new ItemCrystalIce();
 	
 	public static void registerItems() {
 		
 		setRegister(LIFE_CRYSTAL);
 		setRegister(REGENERATION_JELLY);
+		setRegister(CRYSTAL_ICE);
 		
     }
 
     @SideOnly(Side.CLIENT)
-    public static void registerRenders() {
+    public static void registerRender() {
     	
     	setRender(LIFE_CRYSTAL);
     	setRender(REGENERATION_JELLY);
+    	setRender(CRYSTAL_ICE);
     	
     }
 
