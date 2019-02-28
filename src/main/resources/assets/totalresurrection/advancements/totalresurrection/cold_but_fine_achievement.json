@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "totalresurrection:ice_crystal"
+        },
+        "title": {
+            "translate": "advancements.totalresurrection.cold_but_fine.title"
+        },
+        "description": {
+            "translate": "advancements.totalresurrection.cold_but_fine.description"
+        }
+    },
+    "parent": "totalresurrection:totalresurrection/root",
+    "criteria": {
+        "has_crystal_ice": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                	{
+                		"item": "totalresurrection:crystal_ice"
+                	}
+                ]
+            }
+        }
+    }
+}
