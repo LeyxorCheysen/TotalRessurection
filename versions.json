@@ -5,10 +5,11 @@
     "0.0.1": "Added proxy and instance.",
     "0.1.0": "Added life crystal.",
     "0.2.0": "Added regeneration jelly.",
-    "0.2.1": "Regeneration jelly is always ediable, fixed info version, and added russian localization."
+    "0.2.1": "Regeneration jelly is always ediable, fixed info version, and added russian localization.",
+    "0.3.0": "Added making spawn eggs."
   },
   "promos": {
-    "1.12.2-latest": "0.2.1",
+    "1.12.2-latest": "0.3.0",
     "1.12.2-recommended": "0.2.1"
   }
 }
